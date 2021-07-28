@@ -9,12 +9,12 @@ spec:
   - args: 
     - /bin/sh 
     - -c 
-    - wget -O /tmp/index.html https://google.com/index.html 
+    - wget -O /work-dir/index.html https://google.com/index.html 
     image: busybox 
     name: box 
     volumeMounts: 
     - name: vol 
-      mountPath: /tmp 
+      mountPath: /work-dir 
   containers:
   - image: nginx
     name: nginx
