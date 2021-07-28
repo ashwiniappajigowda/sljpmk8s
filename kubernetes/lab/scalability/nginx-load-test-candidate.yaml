@@ -5,7 +5,7 @@ metadata:
   labels:
     app: nginx-loadtest
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: nginx-loadtest
@@ -15,7 +15,7 @@ spec:
         app: nginx-loadtest
     spec:
       containers:
-      - image: nginx:1.15
+      - image: nginx:1.17
         imagePullPolicy: IfNotPresent
         name: nginx
         resources:
