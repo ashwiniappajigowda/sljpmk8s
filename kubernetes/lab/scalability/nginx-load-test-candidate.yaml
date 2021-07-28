@@ -15,7 +15,7 @@ spec:
         app: nginx-loadtest
     spec:
       containers:
-      - image: nginx:1.17
+      - image: nginx:1.18
         imagePullPolicy: IfNotPresent
         name: nginx
         resources:
