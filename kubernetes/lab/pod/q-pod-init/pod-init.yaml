@@ -9,7 +9,7 @@ spec:
   - args: 
     - /bin/sh 
     - -c 
-    - wget -O /tmp/index.html https://google.com/index.html 
+    - wget -O index.html https://google.com/index.html 
     image: busybox 
     name: box 
     volumeMounts: 
