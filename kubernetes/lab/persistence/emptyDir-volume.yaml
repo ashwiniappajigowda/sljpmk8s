@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: volume-emptydir
+  name: hello-world-volume-emptydir
 spec:
   containers:
   - image: nginx
